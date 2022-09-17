@@ -12,12 +12,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MsSqlScripts", "MsSqlScripts", "{3C0DA86C-8718-4465-8F70-DA125AE49354}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\..\Загрузки\CreateScript.sql = ..\..\..\..\..\Загрузки\CreateScript.sql
-		..\..\..\..\..\Загрузки\SelectProductsQuery.sql = ..\..\..\..\..\Загрузки\SelectProductsQuery.sql
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
