@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MindboxTestTask", "MindboxTestTask\MindboxTestTask.csproj", "{A152DA2E-FDC5-4D93-A722-8A92AFC88D53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MindboxTestTaskTests", "MindboxTestTaskTests\MindboxTestTaskTests.csproj", "{39DC4ACE-EA06-49A0-B7A6-08955EBB4DF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A94843A6-31E6-4CD4-AE5F-C02D3BD2EA19}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MsSqlScripts", "MsSqlScripts", "{3C0DA86C-8718-4465-8F70-DA125AE49354}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\Загрузки\CreateScript.sql = ..\..\..\..\..\Загрузки\CreateScript.sql
+		..\..\..\..\..\Загрузки\SelectProductsQuery.sql = ..\..\..\..\..\Загрузки\SelectProductsQuery.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A152DA2E-FDC5-4D93-A722-8A92AFC88D53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A152DA2E-FDC5-4D93-A722-8A92AFC88D53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A152DA2E-FDC5-4D93-A722-8A92AFC88D53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A152DA2E-FDC5-4D93-A722-8A92AFC88D53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39DC4ACE-EA06-49A0-B7A6-08955EBB4DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39DC4ACE-EA06-49A0-B7A6-08955EBB4DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39DC4ACE-EA06-49A0-B7A6-08955EBB4DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39DC4ACE-EA06-49A0-B7A6-08955EBB4DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EDC87FE-AEE4-4F10-A779-73F186D0F823}
+	EndGlobalSection
+EndGlobal
